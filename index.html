@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>AmbiLab</title>
+    <meta name="description" content>
+    <meta name="keywords" content>
+
+    <!-- Favicons -->
+    <link href="assets/img/logo_adat_web.webp" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Dewi
+  * Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/ambilab.svg" alt="ADAT Logo"
+            style="height: 50px;">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Inicio</a></li>
+            <li><a href="#about">NOSOTROS</a></li>
+            <li><a href="#services">SERVICIOS</a></li>
+            <li><a href="#portfolio">PORTAFOLIO</a></li>
+            <li><a href="#team">EQUIPO</a></li>
+            <li class="dropdown"><a href="#"><span>MENÚ</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                      class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">CONTACTO</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn" href="index.html#about">COTIZAR</a>
+
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+
+        <img src="assets/img/ambilabfondo.jpeg" alt data-aos="fade-in">
+
+        <div class="container d-flex flex-column align-items-center">
+          <h2 id="titulo-principal" data-aos="fade-up"
+            data-aos-delay="100">INNOVA. CONECTA. AVANZA.</h2>
+          <p id="slogan" data-aos="fade-up" data-aos-delay="200">Tecnología que
+            Impulsa tu Empresa</p>
+          <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="#about" class="btn-get-started">Nosotros</a>
+          
+          </div>
+        </div>
+        <script>
+        // Lista de títulos posibles (h2)
+        const titulos = [
+  "OBSERVA. ANALIZA. PROTEGE.",
+  "MIDE. COMPRENDE. ACTÚA.",
+  "DETECTA. INVESTIGA. PRESERVA.",
+  "EXPLORA. ESTUDIA. TRANSFORMA.",
+  "SOPESA. DIAGNOSTICA. IMPACTA."
+];
+
+// Lista de slogans posibles (p)
+const slogans = [
+  "Ciencia ambiental para un futuro sostenible.",
+  "Precisión y compromiso con el planeta.",
+  "Datos que cuidan la vida.",
+  "Monitoreo que impulsa el cambio.",
+  "Investigación al servicio del medio ambiente."
+];
+
+        
+        // Escoger uno aleatorio para cada uno
+        const tituloElegido = titulos[Math.floor(Math.random() * titulos.length)];
+        const sloganElegido = slogans[Math.floor(Math.random() * slogans.length)];
+        
+        // Insertarlo en el HTML
+        document.getElementById("titulo-principal").textContent = tituloElegido;
+        document.getElementById("slogan").textContent = sloganElegido;
+        </script>
+      </section><!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+
+        <div class="container">
+
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3>Protegemos tu entorno con soluciones ambientales
+                integrales</h3>
+              <img src="assets/img/laboratorio_analisis.jpg"
+                class="img-fluid rounded-4 mb-4"
+                alt="Ambiental Laboratorios - Análisis Ambiental">
+              <p>En Ambiental Laboratorios S.A.C. nos especializamos en el
+                monitoreo, análisis y estudios ambientales, brindando servicios
+                que garantizan la calidad del agua, suelo, aire y ruido.</p>
+              <p>Con un enfoque basado en la precisión, confiabilidad y
+                compromiso con la sostenibilidad, ofrecemos información técnica
+                clave para la toma de decisiones responsables en sectores como
+                el industrial, agrícola, minero y de saneamiento.</p>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+              <div class="content ps-0 ps-lg-5">
+                <p class="fst-italic">
+                  Nuestra misión es ser tu aliado estratégico en la protección
+                  del medio ambiente, ofreciendo servicios técnicos
+                  especializados bajo los más altos estándares de calidad.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> <span>Análisis de
+                      calidad de agua, suelo, aire y ruido
+                      ambiental.</span></li>
+                  <li><i class="bi bi-check-circle-fill"></i> <span>Monitoreos y
+                      estudios ambientales con tecnología avanzada.</span></li>
+                  <li><i class="bi bi-check-circle-fill"></i> <span>Asesoría
+                      técnica y capacitaciones para el cumplimiento
+                      normativo.</span></li>
+                </ul>
+                <p>
+                  Trabajamos activamente para contribuir al desarrollo
+                  sostenible del país, asegurando un futuro más saludable y
+                  equilibrado para todos.
+                </p>
+
+                <div class="position-relative mt-4">
+                  <img src="assets/img/equipo_campo.jpg"
+                    class="img-fluid rounded-4"
+                    alt="Ambiental Laboratorios - Equipo en campo">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section><!-- /About Section -->
+
+      <section id="stats" class="stats section light-background">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-flask-fill color-blue flex-shrink-0"></i> <div>
+                  <span data-purecounter-start="0" data-purecounter-end="40"
+                    data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Análisis Realizados</p> </div>
+              </div>
+            </div><div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-search color-orange flex-shrink-0"></i> <div>
+                  <span data-purecounter-start="0" data-purecounter-end="30"
+                    data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Monitoreos Ambientales</p> </div>
+              </div>
+            </div><div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-award-fill color-green flex-shrink-0"></i> <div>
+                  <span data-purecounter-start="0" data-purecounter-end="5"
+                    data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Certificaciones Obtenidas</p> </div>
+              </div>
+            </div><div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-building color-pink flex-shrink-0"></i> <div>
+                  <span data-purecounter-start="0" data-purecounter-end="10"
+                    data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Clientes Industriales</p> </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section><!-- /Stats Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nuestros Servicios</h2>
+          <p>Soluciones ambientales para un futuro sostenible<br></p>
+        </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-5">
+
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in"
+              data-aos-delay="200">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/analisis_agua_suelo.jpg"
+                    class="img-fluid" alt="Análisis de Agua y Suelo">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-water"></i> </div>
+
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Análisis Físico-Químicos</h3>
+                  </a>
+                  <p>Ofrecemos análisis especializados de agua, suelo y
+                    residuos para determinar su calidad, identificar
+                    contaminantes y asegurar el cumplimiento de normativas
+                    ambientales.</p>
+                </div>
+              </div>
+            </div><div class="col-xl-4 col-md-6" data-aos="zoom-in"
+              data-aos-delay="300">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/monitoreo_aire_ruido.jpg"
+                    class="img-fluid" alt="Monitoreo de Aire y Ruido">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-cloud-haze2-fill"></i> </div>
+
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Monitoreo de Calidad Ambiental</h3>
+                  </a>
+                  <p>Realizamos monitoreos de aire y ruido ambiental,
+                    evaluando sus niveles y fuentes para prevenir impactos
+                    negativos y proteger la salud pública y los ecosistemas.</p>
+                </div>
+              </div>
+            </div><div class="col-xl-4 col-md-6" data-aos="zoom-in"
+              data-aos-delay="400">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/estudios_ambientales.jpg"
+                    class="img-fluid" alt="Estudios de Impacto Ambiental">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-bar-chart-line-fill"></i> </div>
+
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Estudios Ambientales y Geofísicos</h3>
+                  </a>
+                  <p>Conducimos estudios de impacto ambiental (EIA) y geofísicos
+                    para evaluar riesgos, diseñar medidas de mitigación y
+                    asegurar la viabilidad sostenible de tus proyectos.</p>
+                </div>
+              </div>
+            </div><div class="col-xl-4 col-md-6" data-aos="zoom-in"
+              data-aos-delay="400">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/pruebas_laboratorio.jpg"
+                    class="img-fluid" alt="Pruebas de Laboratorio Acreditadas">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-box-seam-fill"></i> </div>
+
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Pruebas de Laboratorio</h3>
+                  </a>
+                  <p>Realizamos pruebas de laboratorio con rigurosos
+                    estándares de calidad, proporcionando resultados fiables
+                    para la caracterización de muestras y el cumplimiento
+                    normativo.</p>
+                </div>
+              </div>
+            </div><div class="col-xl-4 col-md-6" data-aos="zoom-in"
+              data-aos-delay="400">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/capacitaciones_tecnicas.jpg"
+                    class="img-fluid" alt="Capacitaciones Técnicas Ambientales">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-book-fill"></i> </div>
+
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Capacitaciones Técnicas</h3>
+                  </a>
+                  <p>Ofrecemos programas de capacitación para profesionales y
+                    empresas, fortaleciendo sus conocimientos en normativas
+                    ambientales, técnicas de muestreo y gestión sostenible.</p>
+                </div>
+              </div>
+            </div><div class="col-xl-4 col-md-6" data-aos="zoom-in"
+              data-aos-delay="400">
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets/img/asesoria_normativa.jpg" class="img-fluid"
+                    alt="Asesoría en Normativa Ambiental">
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-file-earmark-ruled-fill"></i> </div>
+
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Asesoría y Consultoría Ambiental</h3>
+                  </a>
+                  <p>Brindamos asesoría experta en el cumplimiento de la
+                    legislación ambiental peruana, optimización de procesos
+                    y desarrollo de estrategias para la sostenibilidad de tu
+                    negocio.</p>
+                </div>
+              </div>
+            </div></div>
+
+        </div>
+
+      </section><!-- /Services Section -->
+
+      <!-- Clients Section -->
+      <section id="clients" class="clients section light-background">
+
+        <div class="container" data-aos="fade-up">
+
+          <div class="row gy-4">
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/cerroverde.png" class="img-fluid" alt>
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/munihyo.png"
+                class="img-fluid" alt>
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/munitambo.png" class="img-fluid"
+                alt>
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/hlc.svg" class="img-fluid" alt>
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/conti.png" class="img-fluid" alt>
+            </div><!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="assets/img/clients/uncp.png" class="img-fluid" alt>
+            </div><!-- End Client Item -->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Clients Section -->
+
+      <section id="features" class="features section">
+
+        <div class="container">
+
+          <ul class="nav nav-tabs row d-flex" data-aos="fade-up"
+            data-aos-delay="100">
+            <li class="nav-item col-3">
+              <a class="nav-link active show" data-bs-toggle="tab"
+                data-bs-target="#features-tab-1">
+                <i class="bi bi-patch-check"></i> <h4
+                  class="d-none d-lg-block">Calidad Certificada</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab"
+                data-bs-target="#features-tab-2">
+                <i class="bi bi-globe-americas"></i> <h4
+                  class="d-none d-lg-block">Alcance Nacional</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab"
+                data-bs-target="#features-tab-3">
+                <i class="bi bi-lightbulb-fill"></i> <h4
+                  class="d-none d-lg-block">Expertise y Tecnología</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab"
+                data-bs-target="#features-tab-4">
+                <i class="bi bi-hand-thumbs-up"></i> <h4
+                  class="d-none d-lg-block">Compromiso y Confianza</h4>
+              </a>
+            </li>
+          </ul><div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="tab-pane fade active show" id="features-tab-1">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Laboratorio Acreditado y Confiable</h3>
+                  <p class="fst-italic">
+                    Nuestra prioridad es la precisión y fiabilidad de cada
+                    análisis. Trabajamos bajo estrictos estándares de calidad
+                    reconocidos a nivel nacional e internacional.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> <span>Certificaciones
+                        ISO: Garantizamos la calidad de nuestros procesos y
+                        resultados conforme a las normativas
+                        internacionales.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Métodos
+                        Validados: Aplicamos metodologías de ensayo y
+                        monitoreo probadas y estandarizadas.</span>.</li>
+                    <li><i class="bi bi-check2-all"></i> <span>Equipos de
+                        Vanguardia: Contamos con tecnología de última
+                        generación para asegurar la exactitud de cada
+                        prueba.</span></li>
+                  </ul>
+                  <p>
+                    La calidad de nuestros datos es fundamental para que
+                    nuestros clientes tomen decisiones informadas y cumplan con
+                    las regulaciones ambientales. Nuestra dedicación a la
+                    excelencia se refleja en cada informe que emitimos.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/calidad_certificada.jpg"
+                    alt="Laboratorio con certificaciones ISO" class="img-fluid">
+                </div>
+              </div>
+            </div><div class="tab-pane fade" id="features-tab-2">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Un Aliado Ambiental con Presencia Nacional</h3>
+                  <p>
+                    Aunque nuestra sede principal se encuentra en Huancayo,
+                    nuestra visión es ser un referente en soluciones ambientales
+                    en todo el territorio peruano, adaptándonos a las
+                    necesidades de cada región.
+                  </p>
+                  <p class="fst-italic">
+                    Expandimos nuestro alcance para ofrecer el mejor servicio
+                    donde nuestros clientes nos necesitan, contribuyendo al
+                    desarrollo sostenible del país.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> <span>Servicios a
+                        Nivel Nacional: Atendemos proyectos en diversas
+                        regiones, especialmente en zonas con actividad minera y
+                        agrícola.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Red de
+                        Colaboradores: Contamos con personal capacitado para
+                        operar en distintos puntos del Perú.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Adaptación
+                        Regional: Entendemos y aplicamos las normativas
+                        ambientales específicas de cada localidad.</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/mapa_peru_alcance.jpg"
+                    alt="Mapa de Perú con alcance de servicios"
+                    class="img-fluid">
+                </div>
+              </div>
+            </div><div class="tab-pane fade" id="features-tab-3">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Equipo de Expertos y Tecnología de Punta</h3>
+                  <p>
+                    Nuestro equipo está conformado por profesionales altamente
+                    calificados y apasionados por el medio ambiente, respaldados
+                    por la tecnología más avanzada en cada uno de nuestros
+                    procesos.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> <span>Científicos y
+                        Técnicos Especializados: Experiencia en monitoreo,
+                        análisis y consultoría ambiental.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Innovación
+                        Constante: Invertimos en investigación y desarrollo
+                        para ofrecer soluciones más eficientes y
+                        precisas.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Laboratorios
+                        Modernos: Equipados con instrumentos de alta precisión
+                        para resultados confiables y oportunos.</span></li>
+                  </ul>
+                  <p class="fst-italic">
+                    Combinamos el conocimiento profundo del entorno con la
+                    capacidad tecnológica para enfrentar los desafíos
+                    ambientales más complejos.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/equipo_tecnologia.jpg"
+                    alt="Científicos trabajando en laboratorio"
+                    class="img-fluid">
+                </div>
+              </div>
+            </div><div class="tab-pane fade" id="features-tab-4">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Compromiso con la Sostenibilidad y la Comunidad</h3>
+                  <p>
+                    En Ambiental Laboratorios S.A.C., nuestro trabajo va más
+                    allá del análisis. Estamos profundamente comprometidos con
+                    la protección del medio ambiente y el desarrollo sostenible.
+                  </p>
+                  <p class="fst-italic">
+                    Construimos relaciones de confianza con nuestros clientes y
+                    la comunidad, promoviendo prácticas responsables y generando
+                    un impacto positivo.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> <span>Responsabilidad
+                        Social: Contribuimos al bienestar de las comunidades y
+                        al equilibrio ecológico.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Alianzas
+                        Estratégicas: Colaboramos con universidades e
+                        instituciones para fomentar la investigación y formación
+                        ambiental.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Ética y
+                        Transparencia: Operamos con los más altos principios
+                        de integridad en todos nuestros servicios.</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/sostenibilidad_comunidad.jpg"
+                    alt="Manos sosteniendo una planta o el planeta"
+                    class="img-fluid">
+                </div>
+              </div>
+            </div></div>
+
+        </div>
+
+      </section>
+      <section id="services-2" class="services-2 section light-background">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nuestros Servicios</h2>
+          <p>Soluciones especializadas para la gestión ambiental</p>
+        </div><div class="container">
+
+          <div class="row gy-4">
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-water icon flex-shrink-0"></i> <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Análisis
+                      de Calidad de Agua</a></h4>
+                  <p class="description">Realizamos análisis físico-químicos y
+                    microbiológicos de agua para consumo, industrial y residual,
+                    asegurando su cumplimiento normativo y aptitud.</p>
+                </div>
+              </div>
+            </div><div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-cloud-haze2-fill icon flex-shrink-0"></i> <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Monitoreo
+                      de Emisiones y Calidad de Aire</a></h4>
+                  <p class="description">Evaluamos la calidad del aire y medimos
+                    emisiones contaminantes de fuentes fijas y móviles,
+                    contribuyendo a la protección atmosférica.</p>
+                </div>
+              </div>
+            </div><div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-buildings-fill icon flex-shrink-0"></i> <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Análisis
+                      de Suelo y Residuos</a></h4>
+                  <p class="description">Determinamos la composición y presencia
+                    de contaminantes en muestras de suelo y caracterizamos
+                    residuos sólidos, apoyando proyectos de remediación y
+                    gestión.</p>
+                </div>
+              </div>
+            </div><div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-soundwave icon flex-shrink-0"></i> <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Monitoreo
+                      de Ruido Ambiental</a></h4>
+                  <p class="description">Medimos los niveles de ruido ambiental
+                    en áreas urbanas e industriales, identificando fuentes y
+                    proponiendo soluciones para mitigar impactos acústicos.</p>
+                </div>
+              </div>
+            </div><div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-journals icon flex-shrink-0"></i> <div>
+                  <h4 class="title"><a href="#"
+                      class="stretched-link">Elaboración de Estudios
+                      Ambientales</a></h4>
+                  <p class="description">Desarrollamos Estudios de Impacto
+                    Ambiental (EIA), Declaraciones de Impacto Ambiental (DIA) y
+                    otros instrumentos de gestión ambiental para proyectos.</p>
+                </div>
+              </div>
+            </div><div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-person-workspace icon flex-shrink-0"></i> <div>
+                  <h4 class="title"><a href="#"
+                      class="stretched-link">Capacitación y Asesoría
+                      Técnica</a></h4>
+                  <p class="description">Brindamos cursos y talleres
+                    especializados, además de asesoría personalizada en
+                    normativas, muestreo y gestión para profesionales y
+                    empresas.</p>
+                </div>
+              </div>
+            </div></div>
+
+        </div>
+
+      </section>
+      <section id="testimonials" class="testimonials section dark-background">
+
+        <img src="assets/img/testimonials-bg-laboratorio.jpg"
+          class="testimonials-bg"
+          alt="Fondo de laboratorio o naturaleza limpia">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonial-empresa-minera.jpg"
+                    class="testimonial-img" alt="Testimonio de cliente minero">
+                  <h3>Gerente de Operaciones</h3>
+                  <h4>Empresa Minera del Centro</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Ambiental Laboratorios S.A.C. ha sido un socio
+                      fundamental en nuestros monitoreos ambientales. Sus
+                      análisis son precisos, sus informes detallados y su equipo
+                      técnico, altamente profesional. Nos brindan la confianza
+                      necesaria para cumplir con nuestras exigencias
+                      normativas.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonial-agricola.jpg"
+                    class="testimonial-img"
+                    alt="Testimonio de cliente agrícola">
+                  <h3>Director de Producción</h3>
+                  <h4>Cooperativa Agrícola "Verde Valle"</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>La calidad del agua es vital para nuestros cultivos.
+                      Ambiental Laboratorios nos proporciona análisis rápidos y
+                      confiables, lo que nos permite tomar decisiones a tiempo
+                      para proteger nuestra producción y el suelo. Un servicio
+                      excepcional y un compromiso genuino.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonial-universidad.jpg"
+                    class="testimonial-img"
+                    alt="Testimonio de aliado académico">
+                  <h3>Jefe de Departamento Ambiental</h3>
+                  <h4>Universidad Nacional del Centro del Perú</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Nuestra alianza con Ambiental Laboratorios ha
+                      enriquecido la formación de nuestros estudiantes,
+                      brindándoles oportunidades de prácticas y acceso a equipos
+                      de primer nivel. Su aporte al conocimiento y la
+                      sostenibilidad es invaluable para la región.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+
+      </section>
+      <section id="portfolio" class="portfolio section">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nuestros Proyectos</h2>
+          <p>Conoce los casos de éxito que nos respaldan</p>
+        </div><div class="container">
+
+          <div class="isotope-layout" data-default-filter="*"
+            data-layout="masonry" data-sort="original-order">
+
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up"
+              data-aos-delay="100">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-agua">Agua y Suelo</li>
+              <li data-filter=".filter-aire">Aire y Ruido</li>
+              <li data-filter=".filter-estudios">Estudios Ambientales</li>
+              <li data-filter=".filter-mineria">Minería</li>
+              <li data-filter=".filter-agricultura">Agricultura</li>
+              <li data-filter=".filter-saneamiento">Saneamiento</li>
+            </ul><div class="row gy-4 isotope-container" data-aos="fade-up"
+              data-aos-delay="200">
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-agua filter-mineria">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/proyecto-mineria-agua.jpg"
+                    class="img-fluid" alt="Monitoreo de agua en mina">
+                  <div class="portfolio-info">
+                    <h4>Monitoreo de Calidad de Agua</h4>
+                    <p>Proyecto para empresa minera en Ancash: control de
+                      efluentes.</p>
+                    <a href="assets/img/portfolio/proyecto-mineria-agua.jpg"
+                      title="Monitoreo de Calidad de Agua - Ancash"
+                      data-gallery="portfolio-gallery-agua"
+                      class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Más Detalles"
+                      class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-estudios filter-agricultura">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/proyecto-agricultura-eia.jpg"
+                    class="img-fluid" alt="Estudio de impacto agrícola">
+                  <div class="portfolio-info">
+                    <h4>Estudio de Impacto Ambiental (EIA)</h4>
+                    <p>Evaluación ambiental para expansión de cultivo orgánico
+                      en Ica.</p>
+                    <a href="assets/img/portfolio/proyecto-agricultura-eia.jpg"
+                      title="EIA - Proyecto Agrícola Ica"
+                      data-gallery="portfolio-gallery-estudios"
+                      class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Más Detalles"
+                      class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-aire filter-saneamiento">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/proyecto-ruido-urbano.jpg"
+                    class="img-fluid" alt="Medición de ruido en ciudad">
+                  <div class="portfolio-info">
+                    <h4>Monitoreo de Ruido Ambiental</h4>
+                    <p>Evaluación acústica en distrito de Huancayo para plan de
+                      mitigación.</p>
+                    <a href="assets/img/portfolio/proyecto-ruido-urbano.jpg"
+                      title="Monitoreo de Ruido - Huancayo"
+                      data-gallery="portfolio-gallery-aire"
+                      class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Más Detalles"
+                      class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-agua filter-mineria">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/proyecto-suelo-contaminado.jpg"
+                    class="img-fluid" alt="Análisis de suelo en campo">
+                  <div class="portfolio-info">
+                    <h4>Análisis de Suelo para Remediación</h4>
+                    <p>Caracterización de suelos impactados por actividad minera
+                      en Pasco.</p>
+                    <a
+                      href="assets/img/portfolio/proyecto-suelo-contaminado.jpg"
+                      title="Análisis de Suelo - Pasco"
+                      data-gallery="portfolio-gallery-agua"
+                      class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Más Detalles"
+                      class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-estudios filter-saneamiento">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/proyecto-capacitacion.jpg"
+                    class="img-fluid" alt="Capacitación en gestión de residuos">
+                  <div class="portfolio-info">
+                    <h4>Capacitación en Gestión de Residuos</h4>
+                    <p>Formación para personal de planta industrial en Lima
+                      sobre manejo de RRSS.</p>
+                    <a href="assets/img/portfolio/proyecto-capacitacion.jpg"
+                      title="Capacitación Residuos - Lima"
+                      data-gallery="portfolio-gallery-estudios"
+                      class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Más Detalles"
+                      class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-agua filter-saneamiento">
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/proyecto-saneamiento-pruebas.jpg"
+                    class="img-fluid"
+                    alt="Pruebas de laboratorio para agua potable">
+                  <div class="portfolio-info">
+                    <h4>Pruebas de Calidad para Agua Potable</h4>
+                    <p>Análisis de cumplimiento para empresa de saneamiento en
+                      Cusco.</p>
+                    <a
+                      href="assets/img/portfolio/proyecto-saneamiento-pruebas.jpg"
+                      title="Pruebas Agua Potable - Cusco"
+                      data-gallery="portfolio-gallery-agua"
+                      class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Más Detalles"
+                      class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div></div></div>
+
+        </div>
+
+      </section>
+
+      <!-- Team Section -->
+      <section id="team" class="team section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Equipo</h2>
+          <p>Conoce nuestro Equipo</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="member">
+                <div class="pic"><img src="assets/img/team/team-1.jpg"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Andrew Tumer</h4>
+                  <span>Quimico Ambiental</span>
+                  <div class="social">
+                    <a href
+                      <a href><i class="bi bi-twitter-x"></i></a>
+                    <a href><i class="bi bi-facebook"></i></a>
+                    <a href><i class="bi bi-instagram"></i></a>
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="member">
+                <div class="pic"><img src="assets/img/team/lili.png"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Lili Ancelmo</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href><i class="bi bi-twitter-x"></i></a>
+                    <a href><i class="bi bi-facebook"></i></a>
+                    <a href><i class="bi bi-instagram"></i></a>
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up"
+              data-aos-delay="300">
+              <div class="member">
+                <div class="pic"><img src="assets/img/team/irving.jpg"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Irvin Laurente</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href><i class="bi bi-twitter-x"></i></a>
+                    <a href><i class="bi bi-facebook"></i></a>
+                    <a href><i class="bi bi-instagram"></i></a>
+                    <a href><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Team Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contacto</h2>
+          <p>Cuentenos sus Necesidades</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+            <div class="col-lg-6 ">
+              <div class="row gy-4">
+
+                <div class="col-lg-12">
+                  <div
+                    class="info-item d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Dirección</h3>
+                    <p>Av. Ferrocarril 661, Huancayo, Peru</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div
+                    class="info-item d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Contacto</h3>
+                    <p>+51 956 000 691</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div
+                    class="info-item d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Correo</h3>
+                    <p>lili.ambientallab@gmail.com</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post"
+                class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control"
+                      placeholder="Tu nombre" required>
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email"
+                      placeholder="Tu correo" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject"
+                      placeholder="Titulo" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="4"
+                      placeholder="Mensaje" required></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank
+                      you!</div>
+
+                    <button type="submit">Enviar Mensaje</button>
+                  </div>
+
+                </div>
+              </form>
+            </div><!-- End Contact Form -->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">AmbiLab</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Av. Ferrocarril 661</p>
+              <p>Huancayo, Peru</p>
+              <p class="mt-3"><strong>Celular:</strong> <span>+51 5956 000
+                  691</span></p>
+              <p><strong>Correo :</strong>
+                <span>lili.ambientallab@gmail.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href><i class="bi bi-twitter-x"></i></a>
+              <a href><i class="bi bi-facebook"></i></a>
+              <a href><i class="bi bi-instagram"></i></a>
+              <a href><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Mas Buscados</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="#">Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="#">Nosotros</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="#">Servicios</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="#">Portafolio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="#">Equipo</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Otros Servicios</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Calidad de
+                  Agua</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Calidad de
+                  Tierra</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Calidad de
+                  Ruido</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="#">Calidad de Aire</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Monitoreo
+                  Meteorológico</a></li>
+            </ul>
+          </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+  <h4>Nuestro Boletín Ambiental</h4>
+  <p>Suscríbete a nuestro boletín para recibir las últimas noticias del sector ambiental, actualizaciones sobre normativas, nuestros casos de éxito y artículos técnicos.</p>
+  <form action="forms/newsletter.php" method="post" class="php-email-form">
+    <div class="newsletter-form">
+      <input type="email" name="email" placeholder="Ingresa tu correo electrónico">
+      <input type="submit" value="Suscribirse">
+    </div>
+    <div class="loading">Cargando</div>
+    <div class="error-message"></div>
+    <div class="sent-message">¡Tu solicitud de suscripción ha sido enviada! Gracias por tu interés.</div>
+  </form>
+</div>
+
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong
+            class="px-1 sitename">AmbiLab</strong>
+          <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">Adatmarc</a>
+          Distributed by <a href=“https://themewagon.com>CCC
+          </div>
+        </div>
+
+      </footer>
+
+      <!-- Scroll Top -->
+      <a href="#" id="scroll-top"
+        class="scroll-top d-flex align-items-center justify-content-center"><i
+          class="bi bi-arrow-up-short"></i></a>
+
+      <!-- Preloader -->
+      <div id="preloader"></div>
+
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script
+        src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+      <!-- Main JS File -->
+      <script src="assets/js/main.js"></script>
+
+    </body>
+
+  </html>
